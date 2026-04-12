@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+:root {
+  --blue: #2E6E98;
+  --pearl: #FFF6EE;
+}
+
+@theme inline {
+  --color-blue: var(--blue);
+  --color-pearl: var(--pearl);
+  --font-sans: var(--font-inter);
+}
