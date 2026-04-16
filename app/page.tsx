@@ -1,4 +1,3 @@
-import Image from "next/image";
 import NavBar from "./_components/NavBar";
 import ImageSlider from "./_components/ImageSlider";
 import ProjectPreview from "./_components/ProjectPreview";

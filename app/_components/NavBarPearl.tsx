@@ -5,7 +5,7 @@ export default function NavBarBlue() {
 
     return (
         <>
-            <nav className="sticky top-0 z-[999] flex sm:flex-row w-full h-20 justify-between items-center px-6 sm:px-24 bg-pearl font-semibold text-2xl text-blue" >
+            <nav className="sticky top-0 z-999 flex sm:flex-row w-full h-20 justify-between items-center px-6 sm:px-24 bg-pearl font-semibold text-2xl text-blue" >
                 <Link href="/"
                     className="cursor-pointer hover:opacity-60 transition"
                 >
@@ -19,9 +19,9 @@ export default function NavBarBlue() {
                     <Link href="/#about" className="cursor-pointer hover:opacity-60 transition">
                         ABOUT
                     </Link>
-                    <Link href="/#contact" className="cursor-pointer hover:opacity-60 transition">
+                    {/* <Link href="/#contact" className="cursor-pointer hover:opacity-60 transition">
                         CONTACT
-                    </Link>
+                    </Link> */}
                 </div>
 
                 {/* hamburger */}

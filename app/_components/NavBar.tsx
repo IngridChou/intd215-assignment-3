@@ -10,7 +10,7 @@ export default function NavBar() {
 
     return (
         <>
-            <nav className="sticky top-0 z-[999] flex sm:flex-row w-full h-20 justify-between items-center px-6 sm:px-24 bg-pearl font-semibold text-2xl text-black" >
+            <nav className="sticky top-0 z-999 flex sm:flex-row w-full h-20 justify-between items-center px-6 sm:px-24 bg-pearl font-semibold text-2xl text-black" >
                 <button
                     onClick={() => scrollToSection("top")}
                     className="cursor-pointer hover:opacity-60 transition"
@@ -31,12 +31,12 @@ export default function NavBar() {
                     >
                         ABOUT
                     </button>
-                    <button
+                    {/* <button
                         onClick={() => scrollToSection("contact")}
                         className="cursor-pointer hover:opacity-60 transition"
                     >
                         CONTACT
-                    </button>
+                    </button> */}
                 </div>
 
                 {/* hamburger */}

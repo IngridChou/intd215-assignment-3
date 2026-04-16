@@ -23,7 +23,7 @@ export default function ProjectPreview() {
                                     <p className="text-white text-4xl font-normal">「波紋」</p>
                                 </div>
                             </div>
-                            <p>「波紋」</p>
+                            <p>Ripple</p>
                         </div>
                     </Link>
 
@@ -41,7 +41,7 @@ export default function ProjectPreview() {
                                     <p className="text-white text-4xl font-normal">「島の漁師」</p>
                                 </div>
                             </div>
-                            <p>「島の漁師」</p>
+                            <p>Island Fisherman</p>
                         </div>
                     </Link>
 
@@ -59,7 +59,7 @@ export default function ProjectPreview() {
                                     <p className="text-white text-4xl font-normal">「島の四季」</p>
                                 </div>
                             </div>
-                            <p>「島の四季」</p>
+                            <p>Four Seasons of the Island</p>
                         </div>
                     </Link>
 
@@ -97,7 +97,7 @@ export default function ProjectPreview() {
                                 <p className="text-white text-4xl font-normal">「水滴」</p>
                             </div>
                         </div>
-                        <p>「水滴」</p>
+                        <p>Water Drop</p>
                     </div>
 
                     <div className="flex flex-col gap-2">
@@ -113,7 +113,7 @@ export default function ProjectPreview() {
                                 <p className="text-white text-4xl font-normal">「大漁の舞」</p>
                             </div>
                         </div>
-                        <p>「大漁の舞」</p>
+                        <p>Dance of the Big Catch</p>
                     </div>
 
                     <div className="flex flex-col gap-2">
@@ -129,7 +129,7 @@ export default function ProjectPreview() {
                                 <p className="text-white text-4xl font-normal">「網」</p>
                             </div>
                         </div>
-                        <p>「網」</p>
+                         <p>Net</p>
                     </div>
 
                     <div className="flex flex-col gap-2">
@@ -145,7 +145,7 @@ export default function ProjectPreview() {
                                 <p className="text-white text-4xl font-normal">タグ」</p>
                             </div>
                         </div>
-                        <p>「タグ」</p>
+                        <p>Tag</p>
                     </div>
                 </div>
             </div>

@@ -5,6 +5,7 @@ import Image from 'next/image';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
+import 'animate.css';
 
 import { Autoplay } from 'swiper/modules';
 import { EffectFade } from 'swiper/modules';
@@ -32,22 +33,32 @@ export default function App() {
         }}
         navigation={true}
         loop={true}
-        modules={[Autoplay, EffectFade]} effect="fade"
-        className="mySwiper w-full h-[1000px]"
+        modules={[
+          Autoplay, 
+          EffectFade]} effect="fade"
+        className="mySwiper w-full h-250"
       >
         {/* images */}
         {slides.map((slide) => (
-          <SwiperSlide key={slide.src}>
-            <div className="relative w-full h-full overflow-hidden">
+          <SwiperSlide key={slide.src} className="swiper-slide">
+            {/* <div className="relative w-full h-full overflow-hidden image-container">
               <Image
                 src={slide.src}
                 alt={slide.alt}
                 fill
-                className="object-cover"
+                className="object-cover swiper-image"
+              /> */}
+
+              <div className="absolute top-0 w-full h-full overflow-hidden image-container">
+              <Image
+                src={slide.src}
+                alt={slide.alt}
+                fill
+                className="object-cover max-w-[calc(100%+6rem)]"
               />
 
               {/* shadow overlay */}
-              <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-black/70 to-transparent"/>
+              <div className="absolute bottom-0 left-0 w-full h-1/3 bg-linear-to-t from-black/70 to-transparent"/>
             </div>
           </SwiperSlide>
         ))}
