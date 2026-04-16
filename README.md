@@ -1,3 +1,7 @@
+## Portfolio Website designed for Norito Shinmura
+
+This project is a portfolio website for Norito Shinmura, created to showcase his work in a clear and easy-to-navigate way. 
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
